@@ -1,0 +1,69 @@
+/* Body Background */
+body {
+    background-color: coral;
+}
+
+/* Headings */
+.head {
+    color: darkblue;
+}
+
+/* Second heading background */
+#bglime {
+    background-color: lime;
+}
+
+/* Only word "head" in h2 red */
+#bglime span {
+    color: red;
+}
+
+/* Paragraph styling */
+p {
+    color: white;
+}
+
+#para {
+    color: green;
+}
+
+p span {
+    color: black;
+    font-size: 22px;
+}
+
+/* Remove underline from links */
+a {
+    text-decoration: none;
+}
+
+/* Make full text white for UL links */
+ul li a {
+    color: white;
+}
+
+/* FIRST "here" → green */
+ul li:first-child a span {
+    background-color: green;
+    color: white;
+    padding: 3px 6px;
+}
+
+/* SECOND "here" → red */
+ul li:nth-child(2) a span {
+    background-color: red;
+    color: white;
+    padding: 3px 6px;
+}
+
+/* Hover effects */
+
+/* First changes to darkgreen */
+ul li:first-child a:hover span {
+    background-color: darkgreen;
+}
+
+/* Second changes to darkred */
+ul li:nth-child(2) a:hover span {
+    background-color: darkred;
+}
